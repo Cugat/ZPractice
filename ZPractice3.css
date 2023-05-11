@@ -1,0 +1,34 @@
+.cardRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 100px;
+    gap: 400px;
+}
+
+.pictureAndName {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.onlyThePicture {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.paragraphRight {
+width: 500px;
+height: 400px;
+font-size: larger;
+
+}
+
+/*.descriptionRight{
+
+
+}
+*/

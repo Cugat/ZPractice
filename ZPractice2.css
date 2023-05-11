@@ -1,0 +1,85 @@
+/*All the elements or all the page*/
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+
+}
+
+/*Main Presentation*/
+
+.theParagraph {
+margin: 100px;
+font-size: large;
+
+}
+
+.mainDescription {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 10px 50px;
+    align-items: center;
+
+}
+
+.mainPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-items: center;
+
+    
+}
+
+.onlyMainPic {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+
+/*The rest of the page*/
+
+.allThePics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.eachImage {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.eachDescritpion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 50px;
+
+}
+
+.imageRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 400px;
+    height: 400px;
+
+
+}
